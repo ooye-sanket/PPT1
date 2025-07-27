@@ -66,13 +66,13 @@
             margin-top: auto;
         }
         
-        ul {
+        .slide ul {
             font-size: 1.1em;
             line-height: 1.8;
             color: #2c3e50;
         }
         
-        li {
+        .slide li {
             margin-bottom: 8px;
         }
         
@@ -124,18 +124,10 @@
             color: #e74c3c;
             margin: 10px 0;
         }
-        
-        @media print {
-            .slide-container {
-                page-break-after: always;
-                margin-bottom: 0;
-            }
-        }
     </style>
 </head>
 <body>
 
-<!-- Slide 1: Title -->
 <div class="slide-container">
     <div class="slide title-slide">
         <div class="slide-number">1/7</div>
@@ -149,11 +141,10 @@
     </div>
 </div>
 
-<!-- Slide 2: Introduction & Definition -->
 <div class="slide-container">
     <div class="slide">
         <div class="slide-number">2/7</div>
-        <h2>Introduction & Definition</h2>
+        <h2>Introduction &amp; Definition</h2>
         <ul>
             <li class="main-bullet">Non-inflammatory disorder of musculoskeletal system</li>
             <li class="main-bullet">Characterized by presence of painful points and alterations in mandibular movement</li>
@@ -169,7 +160,6 @@
     </div>
 </div>
 
-<!-- Slide 3: Etiology -->
 <div class="slide-container">
     <div class="slide">
         <div class="slide-number">3/7</div>
@@ -184,23 +174,24 @@
         <h3>According to Okeson - Trauma Types:</h3>
         <ul>
             <li class="main-bullet">Direct Trauma:</li>
-            <ul class="sub-bullet">
-                <li>Direct blow to jaw</li>
-                <li>Opening mouth too wide or for too long a period</li>
-            </ul>
+        </ul>
+        <ul class="sub-bullet">
+            <li>Direct blow to jaw</li>
+            <li>Opening mouth too wide or for too long a period</li>
+        </ul>
+        <ul>
             <li class="main-bullet">Indirect Trauma:</li>
-            <ul class="sub-bullet">
-                <li>Whiplash-type injuries</li>
-                <li>Local infection leading to myositis</li>
-                <li>Occupational & repetitive strain injury</li>
-                <li>Sleep disturbance & nocturnal habits</li>
-                <li>Oral parafunctional muscle tension</li>
-            </ul>
+        </ul>
+        <ul class="sub-bullet">
+            <li>Whiplash-type injuries</li>
+            <li>Local infection leading to myositis</li>
+            <li>Occupational &amp; repetitive strain injury</li>
+            <li>Sleep disturbance &amp; nocturnal habits</li>
+            <li>Oral parafunctional muscle tension</li>
         </ul>
     </div>
 </div>
 
-<!-- Slide 4: Predisposing Factors -->
 <div class="slide-container">
     <div class="slide">
         <div class="slide-number">4/7</div>
@@ -222,7 +213,6 @@
     </div>
 </div>
 
-<!-- Slide 5: Pathophysiology -->
 <div class="slide-container">
     <div class="slide">
         <div class="slide-number">5/7</div>
@@ -249,11 +239,10 @@
     </div>
 </div>
 
-<!-- Slide 6: Clinical Features & Diagnosis -->
 <div class="slide-container">
     <div class="slide">
         <div class="slide-number">6/7</div>
-        <h2>Clinical Features & Diagnosis</h2>
+        <h2>Clinical Features &amp; Diagnosis</h2>
         <h3>Negative Characteristics:</h3>
         <ul>
             <li>Absence of clinical, radiographic or biochemical evidence of changes in TMJ</li>
@@ -263,17 +252,19 @@
         <h3>Clinical Examination:</h3>
         <ul>
             <li class="main-bullet">Extra-oral Examination:</li>
-            <ul class="sub-bullet">
-                <li>Palpation of TMJ</li>
-                <li>Palpation of muscles of mastication & neck muscle</li>
-            </ul>
+        </ul>
+        <ul class="sub-bullet">
+            <li>Palpation of TMJ</li>
+            <li>Palpation of muscles of mastication &amp; neck muscle</li>
+        </ul>
+        <ul>
             <li class="main-bullet">Intra-oral Examination:</li>
-            <ul class="sub-bullet">
-                <li>Check occlusion for premature contacts, crossbite</li>
-                <li>Assess reduced vertical dimension</li>
-                <li>High points or premature contact</li>
-                <li>Attrition, wear facets, missing teeth, mobile teeth</li>
-            </ul>
+        </ul>
+        <ul class="sub-bullet">
+            <li>Check occlusion for premature contacts, crossbite</li>
+            <li>Assess reduced vertical dimension</li>
+            <li>High points or premature contact</li>
+            <li>Attrition, wear facets, missing teeth, mobile teeth</li>
         </ul>
         
         <h3>Radiologic Investigations:</h3>
@@ -284,11 +275,10 @@
     </div>
 </div>
 
-<!-- Slide 7: Treatment & Management -->
 <div class="slide-container">
     <div class="slide">
         <div class="slide-number">7/7</div>
-        <h2>Treatment & Management</h2>
+        <h2>Treatment &amp; Management</h2>
         <h3>Additional Diagnostic Tools:</h3>
         <ul>
             <li>Electromyography</li>
@@ -308,9 +298,9 @@
             <li class="main-bullet">Surgical options (in severe cases)</li>
         </ul>
         
-        <div style="background: #e8f4f8; padding: 20px; border-radius: 10px; margin-top: 30px; text-align: center;">
-            <h3 style="color: #2980b9; margin-top: 0;">Key Takeaway</h3>
-            <p style="font-size: 1.2em; color: #2c3e50; margin-bottom: 0;">
+        <div class="key-takeaway-box">
+            <h3 class="key-takeaway-title">Key Takeaway</h3>
+            <p class="key-takeaway-text">
                 <strong>Multidisciplinary approach is essential for optimal treatment results</strong>
             </p>
         </div>
